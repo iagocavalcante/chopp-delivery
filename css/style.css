@@ -1,0 +1,550 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  overflow-x:hidden;
+}
+@font-face {
+  font-family: "Norwester";
+  src: local("../fonts/norwester.otf"), url("../fonts/norwester.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('../fonts/Myriad Pro Regular'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
+#espacamento{
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.headerbg {
+  background-image: url('../img/headerbg.png');
+  margin:0;
+}
+
+.slogan{
+  font-size: 18px;
+  font-family: "Lobster Two";
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 1.763px 2.427px 6px rgba(0, 0, 0, 0.6);
+  padding: 90px 50px 0 0; 
+  -moz-transform: matrix( 1.65350675326926,-0.14484073398519,0.14455917133671,1.65434784234506,0,0);
+  -webkit-transform: matrix( 1.65350675326926,-0.14484073398519,0.14455917133671,1.65434784234506,0,0);
+  -ms-transform: matrix( 1.65350675326926,-0.14484073398519,0.14455917133671,1.65434784234506,0,0);
+}
+
+.ligueja{
+  font-size: 12px;
+  font-family: "Norwester";
+  color: rgb(255, 210, 0);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin: 110px 100px 0 90px;
+  background-color: rgb(17, 17, 15);
+  -moz-transform: matrix( 1.27350253747701,0.0010311672401,0.00104345084558,1.25493867285914,0,0);
+  -webkit-transform: matrix( 1.27350253747701,0.0010311672401,0.00104345084558,1.25493867285914,0,0);
+  -ms-transform: matrix( 1.27350253747701,0.0010311672401,0.00104345084558,1.25493867285914,0,0);
+}
+
+.telefone {
+  font-size: 16.652px;
+  font-family: "Norwester";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin-right: 50px;
+  -moz-transform: matrix( 1.720595523966,0,0,1.71070789208455,0,0);
+  -webkit-transform: matrix( 1.720595523966,0,0,1.71070789208455,0,0);
+  -ms-transform: matrix( 1.720595523966,0,0,1.71070789208455,0,0);
+}
+.ddd{
+  font-family: "Norwester";
+  color: rgb(255, 255, 255);
+ }
+
+/* NAV */
+.navbar-default {
+    font-size: 1.2em;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-transform: matrix( 1.11627906976744,0,0,1,0,0);
+    -webkit-transform: matrix( 1.11627906976744,0,0,1,0,0);
+    -ms-transform: matrix( 1.11627906976744,0,0,1,0,0);
+    height: 48px;
+    background-image: url('../img/menu-gradient.png');
+    border-color: transparent;
+    border-radius: 1px;
+    width: 80%;
+    margin-left: 8%;
+}
+
+.navbar-default > li > a{
+  color: rgb(255, 255, 255);
+}
+
+.navbar-collapse {
+  padding-left: 0;
+}
+
+.container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    border-top: 0;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  border-right: 1px solid #670100;
+  height: 49px;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #390302;
+    opacity: 0.5;
+    color: #ffffff;
+    border-radius: 3px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #390302;
+    opacity: 0.5;
+    color: #ffffff;
+    border-radius: 3px;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #bb140b;
+}
+
+.navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    background-image: url('../img/menu-gradient.png');
+    
+}
+
+.navbar-nav > li > a:hover {
+    background-color: #390302;
+    color: #ffffff;
+}
+.nav > li:hover
+{
+  background: #390302;
+  position: relative;
+  display: block;
+  color: #ffffff;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* ENDNAV */
+
+
+/* CAROUSEL */
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: 100%;
+}
+
+.item:nth-child(1) {
+    background: #74C390;
+}
+
+.item:nth-child(2) {
+    background: #51BCE8;
+}
+
+.item:nth-child(3) {
+    background: #E46653;
+}
+/* ENDCAROUSEL */
+
+
+/* CONTENT */
+.content{
+  background-image: url('../img/contentbg.jpg');
+  height: auto;
+  width: 100%;
+}
+
+.orcamento{
+  font-size: 15px;
+  font-family: "Norwester";
+  color: rgb(67, 10, 10);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 2.39436038727852,0,0,2.39436038727852,0,0);
+  -webkit-transform: matrix( 2.39436038727852,0,0,2.39436038727852,0,0);
+  -ms-transform: matrix( 2.39436038727852,0,0,2.39436038727852,0,0);
+  margin-top: 55px;
+}
+
+.barris{
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(136, 101, 57);
+  line-height: 1.2;
+  -moz-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  -webkit-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  -ms-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  margin-top: 15px;
+}
+
+.barril30{
+  margin-top: 105px;
+}
+
+.barril50{
+  margin-top: 61px;
+}
+
+
+.btn-barril:hover,
+.btn-barril:focus,
+.btn-barril.focus {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-barril {
+    font-size: 1.2em;
+    font-family: "Myriad Pro";
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-transform: matrix( 1.11627906976744,0,0,1,0,0);
+    -webkit-transform: matrix( 1.11627906976744,0,0,1,0,0);
+    -ms-transform: matrix( 1.11627906976744,0,0,1,0,0);
+    color: #fff;
+    background-image: url('../img/menu-gradient.png');
+    width: 100%;
+}
+
+/* ENDCONTENT*/
+.especiais{
+  background-image: url('../img/especiais.png');
+  height: auto;
+  width: 100%;
+}
+/**/
+
+/* RODAPE */
+.rodape{
+  background-image: url('../img/rodape.jpg');
+  height: auto;
+  width: 100%;
+}
+
+.ligueja-rodape{
+  font-size: 12px;
+  font-family: "Norwester";
+  color: rgb(255, 210, 0);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: rgb(17, 17, 15);
+  -moz-transform: matrix( 1.27350253747701,0.0010311672401,0.00104345084558,1.25493867285914,0,0);
+  -webkit-transform: matrix( 1.27350253747701,0.0010311672401,0.00104345084558,1.25493867285914,0,0);
+  -ms-transform: matrix( 1.27350253747701,0.0010311672401,0.00104345084558,1.25493867285914,0,0);
+}
+
+.telefone-rodape {
+  font-size: 16.652px;
+  font-family: "Norwester";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 1.720595523966,0,0,1.71070789208455,0,0);
+  -webkit-transform: matrix( 1.720595523966,0,0,1.71070789208455,0,0);
+  -ms-transform: matrix( 1.720595523966,0,0,1.71070789208455,0,0);
+}
+
+.logo-rodape{
+  margin-top: 45px;
+}
+
+.contato{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  -webkit-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  -ms-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  margin-top: 35px;
+}
+
+.rua{
+  font-size: 10px;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  -webkit-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  -ms-transform: matrix( 1.11627906976744,0,0,1,0,0);
+}
+
+.representante{
+  font-size: 6.516px;
+  font-family: "Norwester";
+  color: rgb(231, 195, 164);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 1.68809858687835,0,0,1.68809858687835,0,0);
+  -webkit-transform: matrix( 1.68809858687835,0,0,1.68809858687835,0,0);
+  -ms-transform: matrix( 1.68809858687835,0,0,1.68809858687835,0,0);
+  margin-top: 40px;
+}
+
+.chopeira{
+  margin-top: 30px;
+}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.nav-rodape {
+  width: 100%;
+  background: #000000;
+  opacity: 0.5;
+  font-size: 11pt;
+  font-family: "Myriad Pro";
+  position: relative;
+  margin-top: 30px;
+  border-bottom: 2px solid #283744;
+}
+.nav-rodape ul {
+  padding: 0;
+  margin: 0 auto;
+  width: 600px;
+  height: 40px;
+}
+.nav-rodape li {
+  display: inline;
+  float: left;
+}
+.nav-rodape a {
+  color: #fff;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  text-shadow: 1px 1px 0px #283744;
+}
+.nav-rodape li a {
+  border-right: 1px solid #576979;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+.nav-rodape li:last-child a {
+  border-right: 0;
+}
+.nav-rodape a:hover, .nav-rodape a:active {
+  background-color: #8c99a4;
+}
+.nav-rodape a#pull {
+  display: none;
+}
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 600px) {
+  .nav-rodape { 
+      height: auto;
+    }
+    .nav-rodape ul {
+      width: 100%;
+      display: block;
+      height: auto;
+    }
+    .nav-rodape li {
+      width: 50%;
+      float: left;
+      position: relative;
+    }
+    .nav-rodape li a {
+    border-bottom: 1px solid #576979;
+    border-right: 1px solid #576979;
+  }
+    .nav-rodape a {
+      text-align: left;
+      width: 100%;
+      text-indent: 25px;
+    }
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 480px) {
+  .nav-rodape {
+    border-bottom: 0;
+  }
+  .nav-rodape ul {
+    display: none;
+    height: auto;
+  }
+  .nav-rodape a#pull {
+    display: block;
+    background-color: #283744;
+    width: 100%;
+    position: relative;
+  }
+  .nav-rodape a#pull:after {
+    content:"";
+    background: url('http://media02.hongkiat.com/responsive-web-nav/demo/nav-icon.png') no-repeat;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+  .nav-rodape li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  .nav-rodape li a {
+    border-bottom: 1px solid #576979;
+  }
+}
+
+.footer {
+  font-size: 10px;
+  font-family: "Myriad Pro";
+  color: rgb(119, 119, 119);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.webmail {
+  font-size: 13px;
+  font-family: "Myriad Pro";
+  color: rgb(184, 183, 183);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: right;
+  padding-left: 100px;
+  -moz-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  -webkit-transform: matrix( 1.11627906976744,0,0,1,0,0);
+  -ms-transform: matrix( 1.11627906976744,0,0,1,0,0);
+}
+
+.footerbg{
+  background-image: url('../img/footer.jpg');
+  width: 100%;
+  height: auto;
+  position: inherit;
+}
+/* RODAPE */
+
+#esq img {
+  width: 474px;
+  height: 392px;
+  
+}
+
+#cent img {
+  width: 100%;
+}
+
+#dire img {
+  width: 100%;
+}
