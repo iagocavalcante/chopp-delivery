@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Chopp Delivery</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap">
 	<link rel="stylesheet" href="css/style.css">
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
 </head>
@@ -29,80 +30,71 @@
 			</div>
 			<div class="row">
 				<nav class="navbar navbar-default">
-  					<div class="container">
-    					<!-- Brand and toggle get grouped for better mobile display -->
-    					<div class="navbar-header">
-      						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	        					<span class="sr-only">Toggle navigation</span>
-	        					<span class="icon-bar"></span>
-	        					<span class="icon-bar"></span>
-	        					<span class="icon-bar"></span>
-      						</button>
-    					</div>
-
-				    <!-- Collect the nav links, forms, and other content for toggling -->
-					    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				      		<ul class="nav navbar-nav">
-						        <li><a href="#">Home</a></li>
-						        <li><a href="#">Peça seu Chopp</a></li>
-						        <li><a href="#">Cervejas Especiais</a></li>
-						        <li><a href="#">Contato</a></li>
-				      		</ul>
-	      					<form class="navbar-form" role="search">
-						        <div class="form-group">
-						          <input type="text" class="form-control" placeholder="Busca">
-						        </div>
-	      					</form>
-	    				</div><!-- /.navbar-collapse -->
-  					</div><!-- /.container-fluid -->
-				</nav>	
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="navbar-main">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#">Home</a></li>
+								<li><a href="#">Peça seu Chopp</a></li>
+								<li><a href="#">Cervejas Especiais</a></li>
+								<li><a href="#">Contato</a></li>
+							</ul>
+							<form class="navbar-form navbar-right" role="search">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Busca">
+								</div>
+							</form>
+						</div>
+					</div>
+				</nav>
 			</div>
 		</div>
 	</div><!-- Header -->
 	<!-- BANNER -->
-	<img class="img-responsive" src="img/banner1.jpg"></img>
+	<img class="img-responsive banner-img" src="img/banner1.jpg" alt="Banner Chopp Delivery">
     <!-- Banner -->
     <!-- Content -->
     <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12 content">
-    	<center><h2 class="orcamento">Solicite orcamento aqui</h2></center>
-    	<center><h4 class="barris">Peça quantos barris seu evento precisar. Não cobramos taxa de entrega</h4></center>
-    	<div class="row">
-	    	<div class="col-md-3 col-sm-4"></div>
-		  	<div class="col-md-2 col-sm-3 barril30">
-	      		<center><img class="img-responsive" src="img/barril30.png" alt="Barril 30 litros"></center>
+    	<h2 class="orcamento">Solicite orçamento aqui</h2>
+    	<h4 class="barris barris-subtitle">Peça quantos barris seu evento precisar. Não cobramos taxa de entrega</h4>
+    	<div class="row barris-row">
+		  	<div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1 barril-item barril30">
+	      		<img class="img-responsive center-block" src="img/barril30.png" alt="Barril 30 litros">
 		    	<div class="caption">
-		        	<center><p class="barris">Serve aproximadamente 100 copos</p></center>
-		        	<center>
-			        	<p>
-			        		<a href="#" class="btn btn-barril" role="button">Barril de 30 L</a>
-			        	</p>
-			        </center>
+		        	<p class="barris">Serve aproximadamente 100 copos</p>
+		        	<p>
+		        		<a href="#" class="btn btn-barril" role="button">Barril de 30 L</a>
+		        	</p>
 		      	</div>
 			</div>
-			<div class="col-md-2 col-sm-3"></div>
-		  	<div class="col-md-2 col-sm-3 barril50">
-	      		<center><img class="img-responsive" src="img/barril50.png" alt="Barril 50 litros"></center>
+		  	<div class="col-md-4 col-sm-5 col-xs-10 col-xs-offset-1 barril-item barril50">
+	      		<img class="img-responsive center-block" src="img/barril50.png" alt="Barril 50 litros">
 		    	<div class="caption">
-		        	<center><p class="barris">Serve aproximadamente 150 copos</p></center>
-		        	<center>
-			        	<p>
-			        		<a href="#" class="btn btn-barril" role="button">Barril de 50 L</a>
-			        	</p>
-			        </center>
+		        	<p class="barris">Serve aproximadamente 150 copos</p>
+		        	<p>
+		        		<a href="#" class="btn btn-barril" role="button">Barril de 50 L</a>
+		        	</p>
 		      	</div>
 			</div>
-			<div class="col-md-3 col-sm-4"></div>
 		</div>
-
     </div><!-- Content -->
     <!-- CERVAS ESPECIAIS -->
     <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12 especiais">
     	<img src="img/bg-barra-verveja.png" alt="">
     </div>
     <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12 especiais">
-    	<div class="col-md-1 col-sm-2" id="esq"><img src="img/bg-banner-left.jpg" alt=""></div>
-    	<div class="col-md-8 col-sm-9" id="cent"><img src="img/bg-banner-center.jpg" alt=""></div>
-    	<div class="col-md-1 col-sm-2 pull-right" id="dire"><img src="img/bg-banner-right.jpg" alt=""></div>
+    	<div class="row">
+    		<div class="col-md-2 col-sm-2 hidden-xs" id="esq"><img src="img/bg-banner-left.jpg" alt=""></div>
+    		<div class="col-md-8 col-sm-8 col-xs-12" id="cent"><img src="img/bg-banner-center.jpg" alt=""></div>
+    		<div class="col-md-2 col-sm-2 hidden-xs" id="dire"><img src="img/bg-banner-right.jpg" alt=""></div>
+    	</div>
     </div><!-- CERVAS ESPECIAIS -->
 
     <!-- RODAPE -->
@@ -136,7 +128,7 @@
 			<a href="#" id="pull">Menu</a>
 		</nav>
     </div><!-- RODAPE -->
-    <div class="col-md-12 col-sm-3 footerbg">    	
+    <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12 footerbg">    	
 		<p class="footer">chopp delivery belém © Copyright 2015. Todos os direitos reservados<a href="#" class="webmail-link webmail">webmail</a></p>
     </div>
 
